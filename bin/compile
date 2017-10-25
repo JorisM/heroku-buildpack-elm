@@ -1,8 +1,8 @@
 #!/usr/bin/env bash
 
-BUILD_DIR=${1:-}
+ELM_BUILD_DIR=${1:-}
 CACHE_DIR=${2:-}
-ENV_DIR=${3:-}
+ELM_ENV_DIR=${3:-}
 
 indent() {
   sed -u 's/^/       /'
